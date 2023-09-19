@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Application</title>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Image/logo.png" alt="logo">
+        </div>
+        <div class="heading">to do app</div>
+        <form class="addtask_container">
+            <h3 class="taskheading">add new task</h3>
+            <input type="text" name="" id="new_task">
+            <button type="submit" class="add_taskbtn">Add Task</button>
+        </form>
+        <div class="task_container">
+            <div class="incomplete_container">
+                <h3 class="taskheading">Incomplete Tasks</h3>
+                <div class="checkbox_container">
+                    <input type="checkbox">
+                    <label for="">Task name</label>
+                </div>
+                <div class="checkbox_container">
+                    <input type="checkbox">
+                    <label for="">Task name</label>
+                </div>
+                <div class="checkbox_container">
+                    <input type="checkbox">
+                    <label for="">Task name</label>
+                </div>
+            </div>
+            <div class="complete_container">
+                <h3 class="taskheading">Complete Tasks</h3>
+                <div class="complete_checkbox">
+                    <label for="">Task name</label>
+                    <button class="deletebtn" type="button">Delete</button>
+                </div>
+                <div class="complete_checkbox">
+                    <label for="">Task name</label>
+                    <button class="deletebtn" type="button">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- javascript file link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
